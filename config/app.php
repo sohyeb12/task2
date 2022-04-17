@@ -191,11 +191,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-<<<<<<< HEAD
-        // 'ExampleClass' => App\Example\ExampleClass::class,
-=======
         // ...
->>>>>>> b61c129 (commit)
     ])->toArray(),
 
 ];
