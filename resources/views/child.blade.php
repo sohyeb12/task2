@@ -9,7 +9,7 @@
 
                 <div class="panel-body">
                     @if (@isset($task))
-                        <form action="{{ url('update/' . $task->id) }}" method="post" class="form-horizontal">
+                        <form action="{{ url('update/' . $task->id) }}" method="POST" class="form-horizontal">
                             @csrf
                             <!-- Task Name -->
                             <div class="form-group">
